@@ -1,0 +1,103 @@
+>java VendingMachine
+// Bronze 
+Testing Count: (Should be 0) 0
+
+Food Added Successfully to array at [0,3] Name: Apple Calories: 120 Cost: 2
+Testing Count: (Should be 1) 1
+
+Food Added Successfully to array at [4,3] Name: Banana Calories: 180 Cost: 1
+Testing Count: (Should be 2) 2
+
+Food Added Successfully to array at [2,0]: Name: Test Snack Calories: 123 Cost: 9
+Testing Count: (Should be 3) 3
+
+
+-----------------------------------
+Vending Machine Interface:
+Contains: 3 Food Items
+Item [0,0] is Empty
+Item [0,1] is Empty
+Item [0,2] is Empty
+Item [0,3] is Name: Apple Calories: 120 Cost: 2
+Item [1,0] is Empty
+Item [1,1] is Empty
+Item [1,2] is Empty
+Item [1,3] is Empty
+Item [2,0] is Name: Test Snack Calories: 123 Cost: 9
+Item [2,1] is Empty
+Item [2,2] is Empty
+Item [2,3] is Empty
+Item [3,0] is Empty
+Item [3,1] is Empty
+Item [3,2] is Empty
+Item [3,3] is Empty
+Item [4,0] is Empty
+Item [4,1] is Empty
+Item [4,2] is Empty
+Item [4,3] is Name: Banana Calories: 180 Cost: 1
+
+++++++++++++++ Testing Lab3 - Silver +++++++++++++++++++
+Adding to a 2d array by index
+Row 0, Col 3 should be index 3 0 3 index from rc 3
+Row 2, Col 0 should be index 8 2 3 index from rc 8
+Row 4, Col 3 should be index 19 4 4 index from rc 19
+Testing Count: (Should be 0) 0
+
+Food Added Successfully to array at [0,3] by index 3Name: Apple Calories: 120 Cost: 2
+Testing Count: (Should be 1) 1
+
+Food Added Successfully to array at [4,3] by index 19Name: Banana Calories: 180 Cost: 1
+Testing Count: (Should be 2) 2
+
+Food Added Successfully to array at [2,0] by index 8 Name: Test Snack Calories: 123 Cost: 9
+Testing Count: (Should be 3) 3
+
+
+-----------------------------------
+Vending Machine Interface:
+Contains: 3 Food Items
+Item [0,0] at index 0 is Empty
+Item [0,1] at index 1 is Empty
+Item [0,2] at index 2 is Empty
+Item [0,3] at index 3 is Name: Apple Calories: 120 Cost: 2
+Item [1,0] at index 4 is Empty
+Item [1,1] at index 5 is Empty
+Item [1,2] at index 6 is Empty
+Item [1,3] at index 7 is Empty
+Item [2,0] at index 8 is Name: Test Snack Calories: 123 Cost: 9
+Item [2,1] at index 9 is Empty
+Item [2,2] at index 10 is Empty
+Item [2,3] at index 11 is Empty
+Item [3,0] at index 12 is Empty
+Item [3,1] at index 13 is Empty
+Item [3,2] at index 14 is Empty
+Item [3,3] at index 15 is Empty
+Item [4,0] at index 16 is Empty
+Item [4,1] at index 17 is Empty
+Item [4,2] at index 18 is Empty
+Item [4,3] at index 19 is Name: Banana Calories: 180 Cost: 1
+
+++++++++++++++++++++++++++++++++++++
+// Silver with the following settings: 
+      private static int maxFoods_rows = 3;
+      private static int maxFoods_cols = 2;
+
+Food Added Successfully to array at [0,3] by index 3Name: Apple Calories: 120 Cost: 2
+Testing Count: (Should be 1) 1
+
+Something went wrong when adding: Name: Banana Calories: 180 Cost: 1
+Testing Count: (Should be 2) 1
+
+Food Added Successfully to array at [2,0] by index 8 Name: Test Snack Calories: 123 Cost: 9
+Testing Count: (Should be 3) 2
+
+
+-----------------------------------
+Vending Machine Interface:
+Contains: 2 Food Items
+Item [0,0] at index 0 is Empty
+Item [0,1] at index 1 is Empty
+Item [1,0] at index 2 is Empty
+Item [1,1] at index 3 is Name: Apple Calories: 120 Cost: 2
+Item [2,0] at index 4 is Name: Test Snack Calories: 123 Cost: 9
+Item [2,1] at index 5 is Empty
